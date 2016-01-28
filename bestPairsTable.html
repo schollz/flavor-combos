@@ -1,0 +1,20 @@
+<table class="pure-table pure-table-horizontal"  id="example" width="100%" cellspacing="0" class="pure-table pure-table-horizontal">
+        <thead>
+            <tr>
+                <th>Pairing</th>
+                <th>Pairing index</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            {{trs}}
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+    $('#example').DataTable({
+         "order": [[ 1, "desc" ]]
+    });
+} );
+</script>

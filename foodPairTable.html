@@ -1,0 +1,30 @@
+<table id="example" width="100%" cellspacing="0" class="pure-table pure-table-horizontal">
+        <thead>
+            <tr>
+                <th>Recipe</th>
+                <th>Recipe Rating</th>
+                <th>Ingredients</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <th>Recipe</th>
+                <th>Recipe Rating</th>
+                <th>Ingredients</th>
+            </tr>
+        </tfoot>
+
+
+        <tbody>
+            {{trs}}
+        </tbody>
+    </table>
+
+        <script>
+        $(document).ready(function() {
+    $('#example').DataTable({
+         "order": [[ 1, "desc" ]]
+    });
+
+} );
+</script>

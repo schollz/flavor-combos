@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="The best pairings rated by the pairing index" name="description">
+    <link rel="apple-touch-icon" sizes="57x57" href="../icons/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="../icons/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="../icons/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="../icons/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="../icons/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="../icons/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="../icons/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="../icons/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="../icons/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="../icons/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="../icons/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../icons/favicon-16x16.png">
+    <link rel="manifest" href="../icons/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="../icons/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <meta itemprop="name" content="Best Pairings" />
+    <meta itemprop="description" content="The best pairings rated by the pairing index" />
+
+    <meta name="description" content="The best pairings rated by the pairing index" />
+    <meta name="author" content="Zack" />
+
+    <meta property="article:section" content="Food" />
+
+    <meta property="og:title" content="Best Pairings" />
+    <meta property="og:type" content="article" />
+    <meta property="og:description" content="The best pairings rated by the pairing index" />
+    <meta property="og:site_name" content="Food Pairing" />
+    <meta property="og:image" content="../allfoods.png" />
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Best Pairings">
+    <meta name="twitter:description" content="The best pairings rated by the pairing index">
+    <meta name="twitter:image" content="../allfoods.png">
+    <meta name="twitter:url" content="http://www.foodpairing.ninja/best/">
+
+
+    <title>Food Pairing</title>
+    <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">    
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+<!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link href="../css/layouts/side-menu.css" rel="stylesheet"><!--<![endif]-->
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-2345677-12', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+    <div id="layout">
+        <!-- Menu toggle -->
+         <a class="menu-link" href="#menu" id="menuLink"><!-- Hamburger icon -->
+         <span></span></a>
+
+        <div id="menu">
+            <div class="pure-menu">
+                <a class="pure-menu-heading" href="../">Food Pairing</a>
+
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../pairs.html"><i class="fa fa-cutlery"></i> Pick a pair</a>
+                    </li>
+
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../best/"><i class="fa fa-thumbs-o-up"></i> Best Pairings</a>
+                    </li>
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../worst/"><i class="fa fa-thumbs-o-down"></i> Worst Pairings</a>
+                    </li>
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../pantry/"><i class="fa fa-shopping-basket"></i> What to buy</a>
+                    </li>
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../about/"><i class="fa fa-question"></i> About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="main">
+            <div class="header">
+                <h1>Best Pairings</h1>
+                <h2> </h2>
+            </div>
+
+
+            <div class="content">
+
+
+            <p>These are 200 pairs of ingredients which are deemd to be better <i>mixed together</i>, rather than on their own in a recipe.</p><table class="pure-table pure-table-horizontal"  id="example" width="100%" cellspacing="0" class="pure-table pure-table-horizontal">
+        <thead>
+            <tr>
+                <th>Pairing</th>
+                <th>Pairing index</th>
+            </tr>
+        </thead>
+
+
+        <tbody>
+            <tr>
+                <td><a href="../jalapeno/kidney-beans">jalapeno and kidney beans</a></td>
+                <td>1.09</td>
+            </tr><tr>
+                <td><a href="../cod/pine-nut">cod and pine nut</a></td>
+                <td>1.09</td>
+            </tr><tr>
+                <td><a href="../mango/snapper">mango and snapper</a></td>
+                <td>1.09</td>
+            </tr><tr>
+                <td><a href="../flounder/hot-sauce">flounder and hot sauce</a></td>
+                <td>1.09</td>
+            </tr><tr>
+                <td><a href="../cheddar-cheese/snapper">cheddar cheese and snapper</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../pecan/star-anise">pecan and star anise</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../barbecue-sauce/curry-powder">barbecue sauce and curry powder</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../butternut-squash/salted-butter">butternut squash and salted butter</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../halibut/rosemary">halibut and rosemary</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../milk/poi">milk and poi</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../apple/hazelnut-oil">apple and hazelnut oil</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../celeriac/rosemary">celeriac and rosemary</a></td>
+                <td>1.08</td>
+            </tr><tr>
+                <td><a href="../clam-juice/noodle">clam juice and noodle</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../cayenne-pepper/kidney-beans">cayenne pepper and kidney beans</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../lima-bean/macaroni">lima bean and macaroni</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../pumpkin-seed/spelt">pumpkin seed and spelt</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../safflower-oil/white-wine">safflower oil and white wine</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../avocado/white-hominy">avocado and white hominy</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../chili-powder/safflower-oil">chili powder and safflower oil</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../corned-beef/rutabaga">corned beef and rutabaga</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../cooked-wild-rice/sherry">cooked wild rice and sherry</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../caviar/cheese">caviar and cheese</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../grapeseed-oil/radicchio">grapeseed oil and radicchio</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../ground-allspice/oyster">ground allspice and oyster</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../kale/saffron">kale and saffron</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../mint/parsnip">mint and parsnip</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../asian-pear/cilantro">asian pear and cilantro</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../ground-beef/kidney-beans">ground beef and kidney beans</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../fresh-spearmint/tomato">fresh spearmint and tomato</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../cherry/pomegranate-juice">cherry and pomegranate juice</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../coriander-seed/rice-flour">coriander seed and rice flour</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../pear/steak">pear and steak</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../blue-cheese/chicken-meat">blue cheese and chicken meat</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../chorizo/fennel">chorizo and fennel</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../anise-seed/black-tea">anise seed and black tea</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../bacon/cooked-wild-rice">bacon and cooked wild rice</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../flounder/onion-powder">flounder and onion powder</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../kale/walnut-oil">kale and walnut oil</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../avocado/caviar">avocado and caviar</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../radicchio/sunflower-seed">radicchio and sunflower seed</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../corn-tortilla/mahi-mahi">corn tortilla and mahi mahi</a></td>
+                <td>1.07</td>
+            </tr><tr>
+                <td><a href="../duck-fat/shallot">duck fat and shallot</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../apricot/broccoli">apricot and broccoli</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../lime/pimento">lime and pimento</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../pimento/radish">pimento and radish</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../mashed-potato/savory">mashed potato and savory</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../hot-dog/poppy-seed">hot dog and poppy seed</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../wasabi/zucchini">wasabi and zucchini</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../red-leaf-lettuce/zucchini">red leaf lettuce and zucchini</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cashew/safflower-oil">cashew and safflower oil</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../horseradish/walnut">horseradish and walnut</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-nutmeg/nectarine">ground nutmeg and nectarine</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../chili-pepper/white-hominy">chili pepper and white hominy</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../paprika/red-leaf-lettuce">paprika and red leaf lettuce</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../apricot/caper">apricot and caper</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dried-parsley/maple-syrup">dried parsley and maple syrup</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dill-seed/turmeric">dill seed and turmeric</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../bread/pancake">bread and pancake</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../marjoram/wine">marjoram and wine</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-cinnamon/oyster">ground cinnamon and oyster</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../lime-juice/puff-pastry">lime juice and puff pastry</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-ginger/poultry-seasoning">ground ginger and poultry seasoning</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../onion-powder/saffron">onion powder and saffron</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ham/vodka">ham and vodka</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../fennel/italian-seasoning">fennel and italian seasoning</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../coconut-milk/romaine-lettuce">coconut milk and romaine lettuce</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../nutmeg/walnut-oil">nutmeg and walnut oil</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../halibut/salsa">halibut and salsa</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../camembert-cheese/white-wine">camembert cheese and white wine</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../neufchatel-cheese/unsalted-butter">neufchatel cheese and unsalted butter</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ketchup/total">ketchup and total</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../salted-butter/steak">salted butter and steak</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../fenugreek/ground-allspice">fenugreek and ground allspice</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../fresh-dill-weed/lemon-peel">fresh dill weed and lemon peel</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../unsweetened-orange-juice/vegetable-oil">unsweetened orange juice and vegetable oil</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-sage/maple-syrup">ground sage and maple syrup</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../caraway/cream">caraway and cream</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../orange-juice/papaya-nectar">orange juice and papaya nectar</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../pear/sweetened-condensed-milk">pear and sweetened condensed milk</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../red-wine/sunflower-oil">red wine and sunflower oil</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cornmeal/white-bread">cornmeal and white bread</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dried-rosemary/rosemary">dried rosemary and rosemary</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../margarine/parmigiano-reggiano">margarine and parmigiano-reggiano</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dried-parsley/summer-squash">dried parsley and summer squash</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-mace/wine">ground mace and wine</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../coconut-cream/noodle">coconut cream and noodle</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../apple/lima-bean">apple and lima bean</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../chicken-breast/rye-bread">chicken breast and rye bread</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../oats/sourdough">oats and sourdough</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../radish/seaweed">radish and seaweed</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../arugula/pomegranate-juice">arugula and pomegranate juice</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dried-parsley/scallion">dried parsley and scallion</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../burgundy-wine/pea">burgundy wine and pea</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../broccoli/turnip">broccoli and turnip</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../coriander/lard">coriander and lard</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../dried-parsley/lemon-peel">dried parsley and lemon peel</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../olive/radicchio">olive and radicchio</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cantaloupe/walnut">cantaloupe and walnut</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../corn-syrup/fresh-parsley">corn syrup and fresh parsley</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../oats/pasta">oats and pasta</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../gin/tomato">gin and tomato</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../scallion/tomato-juice">scallion and tomato juice</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../mushroom/pasilla">mushroom and pasilla</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../barley/buckwheat">barley and buckwheat</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../pesto/pistachio">pesto and pistachio</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cucumber/ground-nutmeg">cucumber and ground nutmeg</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cream-of-tartar/kool-aid">cream of tartar and kool-aid</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../carrot/spam">carrot and spam</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../chive/pineapple-juice">chive and pineapple juice</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../catsup/unsalted-butter">catsup and unsalted butter</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cucumber/summer-squash">cucumber and summer squash</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../colby-cheese/white-bread">colby cheese and white bread</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cornstarch/millet-flour">cornstarch and millet flour</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../butternut-squash/peanut">butternut squash and peanut</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../turbinado-sugar/worcestershire-sauce">turbinado sugar and worcestershire sauce</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cauliflower/rutabaga">cauliflower and rutabaga</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../corn-tortilla/pasta">corn tortilla and pasta</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../chocolate/life">chocolate and life</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../oats/total">oats and total</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../peanut/pine-nut">peanut and pine nut</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../blue-cheese/dates">blue cheese and dates</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../mint/pumpkin">mint and pumpkin</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../jell-o/rum">jell-o and rum</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../biscuit/lemon-peel">biscuit and lemon peel</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../banana/liquid-pectin">banana and liquid pectin</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../caviar/fresh-parsley">caviar and fresh parsley</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../almonds/cardamom">almonds and cardamom</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../beef/celeriac">beef and celeriac</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../bulgur/red-wine-vinegar">bulgur and red wine vinegar</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../ground-sage/unsalted-butter">ground sage and unsalted butter</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../artichoke/tofu">artichoke and tofu</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../bamboo-shoot/cauliflower">bamboo shoot and cauliflower</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cantaloupe/nectarine">cantaloupe and nectarine</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../tonic-water/vodka">tonic water and vodka</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cilantro/neufchatel-cheese">cilantro and neufchatel cheese</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../red-pepper/whipped-cream">red pepper and whipped cream</a></td>
+                <td>1.06</td>
+            </tr><tr>
+                <td><a href="../cucumber/saffron">cucumber and saffron</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dried-marjoram/olive">dried marjoram and olive</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../fresh-mint/mahi-mahi">fresh mint and mahi mahi</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../chive/dill-seed">chive and dill seed</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../provolone-cheese/yogurt">provolone cheese and yogurt</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../okra/tamarind">okra and tamarind</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../pancake/scallion">pancake and scallion</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cider-vinegar/veal">cider vinegar and veal</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../peanut-butter/radish">peanut butter and radish</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../caraway-seed/dark-rye-flour">caraway seed and dark rye flour</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../green-pepper/lobster">green pepper and lobster</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../ginger-ale/steak">ginger ale and steak</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../lemon-peel/sourdough">lemon peel and sourdough</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../liquid-pectin/onion">liquid pectin and onion</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../caper/hearts-of-palm">caper and hearts of palm</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../chives/cream">chives and cream</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../curry-powder/savory">curry powder and savory</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../pimento/yogurt">pimento and yogurt</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cashew/peach">cashew and peach</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../sunflower-seed/wasabi">sunflower seed and wasabi</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../tangerine/wine">tangerine and wine</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dill-seed/okra">dill seed and okra</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cantaloupe/orange-marmalade">cantaloupe and orange marmalade</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dried-rosemary/lemon-peel">dried rosemary and lemon peel</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cumin/mahi-mahi">cumin and mahi mahi</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../fresh-thyme/papaya">fresh thyme and papaya</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../clam-juice/coriander">clam juice and coriander</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../macadamia/pear">macadamia and pear</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dates/fresh-mint">dates and fresh mint</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../marjoram/salmon">marjoram and salmon</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../nectarine/nutmeg">nectarine and nutmeg</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../okra/rosemary">okra and rosemary</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../pomegranate-juice/rum">pomegranate juice and rum</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cayenne-pepper/honeydew">cayenne pepper and honeydew</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../beer/rutabaga">beer and rutabaga</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../kale/parsnip">kale and parsnip</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../blue-cheese/pork-chop">blue cheese and pork chop</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dried-dill-weed/unsalted-butter">dried dill weed and unsalted butter</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../medjool-dates/pomegranate">medjool dates and pomegranate</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cinnamon/english-muffin">cinnamon and english muffin</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../fat-free-cream-cheese/paprika">fat free cream cheese and paprika</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cayenne-pepper/spelt">cayenne pepper and spelt</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../lemon-peel/macadamia">lemon peel and macadamia</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../lemon-pepper/tofu">lemon pepper and tofu</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../mashed-potato/pork-chop">mashed potato and pork chop</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../sweet-potato/tomato-juice">sweet potato and tomato juice</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../caesar-salad-dressing/lemon">caesar salad dressing and lemon</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../cashew/parsnip">cashew and parsnip</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../horseradish/wheat-bread">horseradish and wheat bread</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../oyster/plum">oyster and plum</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dried-dill-weed/ground-ginger">dried dill weed and ground ginger</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../lime-juice/white-hominy">lime juice and white hominy</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../celery-seed/provolone-cheese">celery seed and provolone cheese</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../pizza-crust/shallot">pizza crust and shallot</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../mint/pie-crust">mint and pie crust</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../margarine/quince">margarine and quince</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../dark-rye-flour/molasses">dark rye flour and molasses</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../shredded-parmesan-cheese/yogurt">shredded parmesan cheese and yogurt</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../french-bread/lemon-pepper">french bread and lemon pepper</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../masa/mung-bean">masa and mung bean</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../apricot/avocado">apricot and avocado</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../canola-oil/pasilla">canola oil and pasilla</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../salad-dressing/tomato-juice">salad dressing and tomato juice</a></td>
+                <td>1.05</td>
+            </tr><tr>
+                <td><a href="../potato-flour/scallion">potato flour and scallion</a></td>
+                <td>1.05</td>
+            </tr>
+        </tbody>
+    </table>
+    <script>
+        $(document).ready(function() {
+    $('#example').DataTable({
+         "order": [[ 1, "desc" ]]
+    });
+} );
+</script><div><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- FoodPairing2 -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-4947875154879707"
+     data-ad-slot="7491146452"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+
+
+<div class="pure-g">
+         <div class="pure-img-responsive addthis_sharing_toolbox"></div>
+</div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/ui.js">
+    </script>
+    <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+
+    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-568c5159f19260a3" async="async"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="A layout example with a side menu that hides on mobile, just like the Pure website." name="description">
+
+    <title>Food Pairs</title>
+    <link href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css" rel="stylesheet">    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!--[if lte IE 8]>
+        <link rel="stylesheet" href="css/layouts/side-menu-old-ie.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+    <link href="../css/layouts/side-menu.css" rel="stylesheet"><!--<![endif]-->
+</head>
+
+<body>
+    <div id="layout">
+        <!-- Menu toggle -->
+         <a class="menu-link" href="#menu" id="menuLink"><!-- Hamburger icon -->
+         <span></span></a>
+
+        <div id="menu">
+            <div class="pure-menu">
+                <a class="pure-menu-heading" href="#">Food Pairs</a>
+
+                <ul class="pure-menu-list">
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../">Pick two</a>
+                    </li>
+
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../best/">Best Pairings</a>
+                    </li>
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../worst/">Worst Pairings</a>
+                    </li>
+
+                    <li class="pure-menu-item">
+                        <a class="pure-menu-link" href="../about/">About</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="main">
+            <div class="header">
+                <h1>{{h1}}</h1>
+
+
+                <h2>{{subtitle}}</h2>
+            </div>
+
+
+            <div class="content">
+
+            {{content}}
+
+            </div>
+        </div>
+    </div>
+    <link href="https://cdn.datatables.net/1.10.10/css/jquery.dataTables.min.css" rel="stylesheet">
+    <script src="https://cdn.datatables.net/1.10.10/js/jquery.dataTables.min.js"></script>
+
+    <script src="../js/ui.js">
+    </script>
+</body>
+</html>
